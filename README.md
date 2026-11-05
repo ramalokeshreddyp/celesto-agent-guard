@@ -45,7 +45,7 @@
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Problem statement
 
 University instructors and online learning platforms grade **hundreds of Python assignments daily**. The naive approach — running student code on the host server — is catastrophically unsafe:
 
@@ -398,7 +398,7 @@ flowchart TD
 
 ---
 
-## 🛡️ How I Used Celesto
+## 🛡️ How I used Celesto
 
 ### Capability 1 — Network Policy (`network_policy = off`)
 
@@ -444,7 +444,7 @@ graph TD
 
 ---
 
-## 📊 Eval Report
+## 📊 Eval report
 
 > **20 fresh sandboxes · 95% success rate · Every run individually recorded**
 
@@ -492,7 +492,7 @@ Full data: [`reports/reliability.json`](reports/reliability.json) | Failure anal
 
 ---
 
-## 🔒 Containment Test
+## 🔒 Containment test
 
 ### Attack Scenario: Prompt Injection Exfiltration
 
@@ -524,7 +524,7 @@ Evidence: [`reports/containment.json`](reports/containment.json) · [`reports/ev
 
 ---
 
-## ⚠️ State and Failure Design
+## ⚠️ State and failure design
 
 ### What Happens When Step 7 Fails
 
@@ -560,7 +560,7 @@ flowchart TD
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Setup
 
 ### Prerequisites
 

@@ -1,5 +1,7 @@
 import re
 from fastapi import FastAPI, Depends, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
+from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, field_validator
 from sqlalchemy.orm import Session
@@ -90,6 +92,11 @@ def create_run(run: RunCreate, db: Session = Depends(get_db)):
     }
 
 
-@app.exception_handler(422)
-async def validation_exception_handler(request: Request, exc):
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    return JSONResponse(status_code=400, content={"detail": jsonable_encoder(exc.errors())})
+
+
+@app.exception_handler(ValueError)
+async def value_error_handler(request: Request, exc: ValueError):
     return JSONResponse(status_code=400, content={"detail": str(exc)})
