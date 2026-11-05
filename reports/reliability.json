@@ -1,0 +1,191 @@
+{
+  "run_count": 20,
+  "runs": [
+    {
+      "sandbox_name": "sbx-8faf96af61b5",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.253,
+      "boot_to_ready_s": 0.003,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-53ad6016f820",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.207,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-fb2eb2406e77",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.195,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-b544ceafbab5",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.212,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-69a29d2d1b1a",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.204,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-b29c1983c29e",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.228,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-23156d5a6b34",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.348,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-987e47481587",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.294,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-15c85672aaec",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.219,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-4e94acc614ab",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.214,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-7f9d05769d4f",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.219,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-c7dd795c741f",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.211,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-7bd9874c84ed",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.209,
+      "boot_to_ready_s": 0.001,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-54b43e4663dc",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.193,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-0046e03c27c2",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.194,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-89344ef6d4ac",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.223,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "safe"
+    },
+    {
+      "sandbox_name": "sbx-cc59af7dc6e9",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.07,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "submission_type": "fork_bomb"
+    },
+    {
+      "sandbox_name": "sbx-78a378b36aa9",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.059,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "submission_type": "fork_bomb"
+    },
+    {
+      "sandbox_name": "sbx-c4a90079a877",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 0.076,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 0.0,
+      "submission_type": "infinite_loop"
+    },
+    {
+      "sandbox_name": "sbx-5e9bfd39a4dd",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 0.228,
+      "boot_to_ready_s": 0.0,
+      "cost_usd": 1e-06,
+      "submission_type": "coverage_fail"
+    }
+  ],
+  "success_rate": 0.95,
+  "median_wall_clock_s": 0.211,
+  "p90_wall_clock_s": 0.253,
+  "median_boot_to_ready_s": 0.0,
+  "total_cost_usd": 1.7e-05,
+  "postmortem_path": "reports/postmortem.md"
+}

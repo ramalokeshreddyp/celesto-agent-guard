@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-848258cf30df",
+      "started_at": "2026-11-05T11:35:15.526562+00:00"
+    },
+    {
+      "sandbox_name": "sbx-92a41f2758e3",
+      "started_at": "2026-11-05T11:35:15.526801+00:00"
+    },
+    {
+      "sandbox_name": "sbx-fd87cdcbf15b",
+      "started_at": "2026-11-05T11:35:15.527113+00:00"
+    },
+    {
+      "sandbox_name": "sbx-3a0aa1160a89",
+      "started_at": "2026-11-05T11:35:15.526317+00:00"
+    },
+    {
+      "sandbox_name": "sbx-77e4a41b2910",
+      "started_at": "2026-11-05T11:35:15.527603+00:00"
+    }
+  ],
+  "breakage_notes": "Ran 5 jobs concurrently using Python threads, each in a uniquely named sandbox. With the local simulation runtime, no name collisions occurred because each sandbox uses uuid4 hex. On Celesto Cloud, the free trial allows only 1 retained sandbox, so concurrent cloud runs would hit a rate-limit error on the 2nd+ create call. No shared state issues were observed in the local simulation."
+}

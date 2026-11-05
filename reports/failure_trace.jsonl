@@ -1,0 +1,2 @@
+{"ts": "2026-11-05T11:35:15.524667+00:00", "event": "step_failed", "step": 7, "sandbox_name": "sbx-22f9ae3047dd", "reason": "coverage.py not available in sandbox; step 7 failed"}
+{"ts": "2026-11-05T11:35:15.524680+00:00", "event": "policy_applied", "policy": "fresh", "sandbox_name": "sbx-22f9ae3047dd", "action": "Deleted the failed sandbox and created a fresh one with a new unique name"}

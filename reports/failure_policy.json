@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "fresh",
+  "rationale": "When step 7 (code coverage collection) fails, we apply the 'fresh' policy: delete the failed sandbox entirely and provision a new one with a unique name. This trades cost (a new boot) for simplicity and reliability \u2014 there is no risk of corrupted state from the failed step bleeding into the retry. The 'resume' policy would be cheaper but risks resuming with a half-written coverage database. The 'rollback' policy requires a pre-step-7 snapshot, which adds overhead to every run. For short-lived autograder jobs (< 2 min), 'fresh' is the right tradeoff: cost is minimal and correctness is guaranteed. In production we would use 'rollback' for long (> 10 min) jobs where the cost of re-running all prior steps exceeds the snapshot storage cost.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

@@ -1,0 +1,78 @@
+{"ts": "2026-11-05T11:35:11.060183+00:00", "sandbox_name": "sbx-8faf96af61b5", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.101789+00:00", "sandbox_name": "sbx-8faf96af61b5", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.154126+00:00", "sandbox_name": "sbx-8faf96af61b5", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.310131+00:00", "sandbox_name": "sbx-53ad6016f820", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.333728+00:00", "sandbox_name": "sbx-53ad6016f820", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.375315+00:00", "sandbox_name": "sbx-53ad6016f820", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.516844+00:00", "sandbox_name": "sbx-fb2eb2406e77", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.538524+00:00", "sandbox_name": "sbx-fb2eb2406e77", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.574496+00:00", "sandbox_name": "sbx-fb2eb2406e77", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.711811+00:00", "sandbox_name": "sbx-b544ceafbab5", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.735228+00:00", "sandbox_name": "sbx-b544ceafbab5", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.771095+00:00", "sandbox_name": "sbx-b544ceafbab5", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.925055+00:00", "sandbox_name": "sbx-69a29d2d1b1a", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.948333+00:00", "sandbox_name": "sbx-69a29d2d1b1a", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:11.986738+00:00", "sandbox_name": "sbx-69a29d2d1b1a", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.128289+00:00", "sandbox_name": "sbx-b29c1983c29e", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.151306+00:00", "sandbox_name": "sbx-b29c1983c29e", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.191414+00:00", "sandbox_name": "sbx-b29c1983c29e", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.356617+00:00", "sandbox_name": "sbx-23156d5a6b34", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.396550+00:00", "sandbox_name": "sbx-23156d5a6b34", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.461621+00:00", "sandbox_name": "sbx-23156d5a6b34", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.704790+00:00", "sandbox_name": "sbx-987e47481587", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.740125+00:00", "sandbox_name": "sbx-987e47481587", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.796221+00:00", "sandbox_name": "sbx-987e47481587", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:12.998731+00:00", "sandbox_name": "sbx-15c85672aaec", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.025268+00:00", "sandbox_name": "sbx-15c85672aaec", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.066896+00:00", "sandbox_name": "sbx-15c85672aaec", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.218296+00:00", "sandbox_name": "sbx-4e94acc614ab", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.243224+00:00", "sandbox_name": "sbx-4e94acc614ab", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.285105+00:00", "sandbox_name": "sbx-4e94acc614ab", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.431968+00:00", "sandbox_name": "sbx-7f9d05769d4f", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.460662+00:00", "sandbox_name": "sbx-7f9d05769d4f", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.500524+00:00", "sandbox_name": "sbx-7f9d05769d4f", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.650966+00:00", "sandbox_name": "sbx-c7dd795c741f", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.675425+00:00", "sandbox_name": "sbx-c7dd795c741f", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.712916+00:00", "sandbox_name": "sbx-c7dd795c741f", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.862386+00:00", "sandbox_name": "sbx-7bd9874c84ed", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.887283+00:00", "sandbox_name": "sbx-7bd9874c84ed", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:13.925970+00:00", "sandbox_name": "sbx-7bd9874c84ed", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.071056+00:00", "sandbox_name": "sbx-54b43e4663dc", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.092736+00:00", "sandbox_name": "sbx-54b43e4663dc", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.129728+00:00", "sandbox_name": "sbx-54b43e4663dc", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.263719+00:00", "sandbox_name": "sbx-0046e03c27c2", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.284126+00:00", "sandbox_name": "sbx-0046e03c27c2", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.319651+00:00", "sandbox_name": "sbx-0046e03c27c2", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.457872+00:00", "sandbox_name": "sbx-89344ef6d4ac", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.485749+00:00", "sandbox_name": "sbx-89344ef6d4ac", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.539304+00:00", "sandbox_name": "sbx-89344ef6d4ac", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.681330+00:00", "sandbox_name": "sbx-cc59af7dc6e9", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.703234+00:00", "sandbox_name": "sbx-cc59af7dc6e9", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.751533+00:00", "sandbox_name": "sbx-78a378b36aa9", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.773098+00:00", "sandbox_name": "sbx-78a378b36aa9", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.810218+00:00", "sandbox_name": "sbx-c4a90079a877", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.832872+00:00", "sandbox_name": "sbx-c4a90079a877", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.886225+00:00", "sandbox_name": "sbx-5e9bfd39a4dd", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.913755+00:00", "sandbox_name": "sbx-5e9bfd39a4dd", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:14.961340+00:00", "sandbox_name": "sbx-5e9bfd39a4dd", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.116746+00:00", "sandbox_name": "sbx-c60802be8403", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.139186+00:00", "sandbox_name": "sbx-c60802be8403", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.181509+00:00", "sandbox_name": "sbx-c60802be8403", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.325381+00:00", "sandbox_name": "sbx-22f9ae3047dd", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.347200+00:00", "sandbox_name": "sbx-22f9ae3047dd", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.383526+00:00", "sandbox_name": "sbx-22f9ae3047dd", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.527386+00:00", "sandbox_name": "sbx-3a0aa1160a89", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.527909+00:00", "sandbox_name": "sbx-848258cf30df", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.528265+00:00", "sandbox_name": "sbx-92a41f2758e3", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.528672+00:00", "sandbox_name": "sbx-fd87cdcbf15b", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.529311+00:00", "sandbox_name": "sbx-77e4a41b2910", "command": "echo sandbox_ready", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.557888+00:00", "sandbox_name": "sbx-3a0aa1160a89", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.558747+00:00", "sandbox_name": "sbx-92a41f2758e3", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.562658+00:00", "sandbox_name": "sbx-848258cf30df", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.562972+00:00", "sandbox_name": "sbx-77e4a41b2910", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.563522+00:00", "sandbox_name": "sbx-fd87cdcbf15b", "command": "python --version 2>&1 || python3 --version 2>&1", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.601992+00:00", "sandbox_name": "sbx-92a41f2758e3", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.604858+00:00", "sandbox_name": "sbx-848258cf30df", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.605797+00:00", "sandbox_name": "sbx-3a0aa1160a89", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.606847+00:00", "sandbox_name": "sbx-fd87cdcbf15b", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-11-05T11:35:15.608193+00:00", "sandbox_name": "sbx-77e4a41b2910", "command": "python -m py_compile submission.py 2>&1 && echo SYNTAX_OK", "decision": "allow", "execution_target": "celesto_sandbox"}

@@ -1,0 +1,14 @@
+{
+  "capabilities": [
+    {
+      "id": "network_policy",
+      "why": "Every student submission sandbox runs with network_policy=off (no outbound internet). Without this, a prompt-injected or malicious submission could curl an external server to exfiltrate the grader's API keys, another student's code, or the test harness secrets. Network policy is enforced at the hypervisor layer (Firecracker's virtio-net is simply not wired up), so no Python-level escape is possible. This is the primary containment mechanism for the exfiltration attack demonstrated in containment.json.",
+      "evidence_path": "reports/evidence/containment.log"
+    },
+    {
+      "id": "safety_hooks",
+      "why": "Pre-command safety hooks run in the control plane before every command reaches the guest VM. They inspect the command string for fork-bomb patterns (:(){), crypto-miner binaries, nsenter escapes, and outbound network tools (curl, wget, nc) when network_policy=off. A blocked command raises CommandBlockedError and is still logged to logs/commands.jsonl with decision=block — giving a full audit trail of attempted attacks. Unlike a system prompt instruction ('please be careful'), a hook is code that the guest can never bypass, because it runs outside the guest.",
+      "evidence_path": "logs/commands.jsonl"
+    }
+  ]
+}

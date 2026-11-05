@@ -1,0 +1,6 @@
+{
+  "who": "University instructors and online course platforms who run programming assignments at scale — grading hundreds of Python submissions manually is slow, inconsistent, and exposes the host system to malicious student code that can delete files, fork-bomb the server, or exfiltrate other students' work.",
+  "agent_work": "The autograder agent receives a code submission, spins up a fresh Celesto sandbox per student, writes the code into the guest, runs static analysis and unit tests with a timeout, collects coverage, generates a grade report, and then deletes the sandbox — all inside the isolated VM, never on the host.",
+  "proof_output": "A grade JSON per submission with pass/fail per test, coverage percentage, dangerous-pattern flags, and a final letter grade. Failed malicious submissions produce a containment log showing the attack was blocked.",
+  "idea_source": "idea_bank"
+}
